@@ -1,3 +1,6 @@
+docker/id_rsa
+docker/id_rsa.pub
+
 # Created by https://www.gitignore.io/api/ansible,jetbrains+all
 # Edit at https://www.gitignore.io/?templates=ansible,jetbrains+all
 

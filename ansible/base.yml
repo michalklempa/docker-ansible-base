@@ -1,0 +1,18 @@
+---
+- hosts: all
+  become: True
+  roles:
+    - role: michalklempa/etc_environment
+      tags: etc_environment
+    - role: michalklempa/hostname
+      tags: hostname
+    - role: michalklempa/packages
+      tags: packages
+    - role: michalklempa/screen
+      tags: screen
+    - role: michalklempa/select_editor
+      tags: select_editor
+    - role: michalklempa/sshd_config
+      tags: sshd_config
+    - role: geerlingguy/ansible-role-ntp
+      tags: ntp

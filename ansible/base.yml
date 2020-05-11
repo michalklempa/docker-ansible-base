@@ -10,6 +10,8 @@
       tags: packages
     - role: michalklempa/screen
       tags: screen
+    - role: michalklempa/vim
+      tags: vim
     - role: michalklempa/select_editor
       tags: select_editor
     - role: michalklempa/sshd_config
